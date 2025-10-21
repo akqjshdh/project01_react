@@ -26,6 +26,7 @@ const SpeechToText = () => {
 
     recognition.onend = () => {
       setIsListening(false); // 음성 인식 종료 시 상태 업데이트
+      
     };
 
     recognition.onerror = (event) => {
