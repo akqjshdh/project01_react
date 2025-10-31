@@ -15,7 +15,16 @@
 
 // export default App;
 
-// src/App.js
-import React from 'react';
-import Chat from './Chat';
-export default function App(){ return <Chat/>; }
+// src/App.jsx
+// src/App.jsx
+import React from "react";
+import Chat from "./components/Chat/Chat";
+
+export default function App() {
+  console.log("✅ App 렌더링됨"); // 디버깅용
+  return (
+    <div>
+      <Chat />
+    </div>
+  );
+}
